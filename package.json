@@ -1,0 +1,15 @@
+{
+  "name": "github-export-pulls",
+  "version": "0.0.1",
+  "description": "Export GitHub pull request data for an organization",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "19.0.13",
+    "dotenv": "16.3.1"
+  }
+}
